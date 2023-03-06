@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    background: #F0BC3C;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+section{
+    margin-top: 80px;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+.wrapper{
+    width: 500px;
+}
+
+.input-herocase{
+    display: flex;
+    justify-content: center;
+    height: 52px;
+}
+
+input,button{
+    border: none;
+    outline: none;
+}
+
+.input-herocase input{
+    padding: 18px 15px;
+    font-size: 15px;
+    border-top-left-radius: 5px;
+    width: 320px;
+}
+
+.input-herocase button{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    padding: 16px 25px;
+    font-size: 16px;
+    color: #766D83;
+    background: #fff;
+    border-left: 2px solid #eee;
+}
+.input-herocase button:hover{
+    color: #fff;
+    background: #766D83;
+    ;
+}
+
+.todo-herocase{
+    padding: 0;
+}
+
+.todo-herocase .todo{
+    margin: 0 auto;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.todo-herocase .todo.completed{
+    width: 90%;
+    text-decoration: line-through;
+    color: rgb(185, 82, 44);
+    opacity: 0.7;
+}
+
+.todo-herocase button{
+    padding: 16px;
+    flex: 1;
+    margin: 0;
+}
+
+.todo-herocase .todo-check{
+    color: rgb(236,112,67);
+    background: #fff;
+    border-left: 2px solid #fff;
+    font-size: 16px;
+}
+
+.todo-herocase .todo-check:hover{
+    color: #fff;
+    background: rgb(236, 112, 67);
+    cursor: pointer;
+}
+
+.todo-herocase .todo-delete{
+    color: #766D83;
+    background: #fff;
+    font-size: 16px;
+    border-left: 2p solid #eee;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+.todo-herocase .todo-delete:hover{
+    color: #fff;
+    background:  #766D83;
+    cursor: pointer;
+}
+
+.todo-herocase .todo li{
+    flex:10;
+    padding:16px;
+    list-style-type: none;
+    margin: 0;
+    line-height: 1.5;
+
+}
